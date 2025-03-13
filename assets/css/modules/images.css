@@ -1,0 +1,22 @@
+.h-logo{
+  width: 9.375rem;
+  max-height: 6.25rem;
+  padding: 1rem;
+}
+
+.s01-img{
+  width: 52rem;
+  height: 40rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  overflow: hidden;
+}
+
+@media (max-width: 600px){
+  .s01-img{
+    display: none;
+  }
+}
