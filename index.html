@@ -78,24 +78,39 @@
         <!--Dentro dessa classe colocamos os slides-->
 
         <div class="swiper-wrapper">
-          <!--Slide 1-->
+           <!-- Slide 1 -->
+                    <div class="swiper-slide"
+                        style="background-image: url(https://img.band.uol.com.br/image/2023/11/01/sushi-104416.png);">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <h2>Sushi Tradicional</h2>
+                            <p>Experimente nossos sushis preparados com ingredientes frescos e técnicas tradicionais japonesas.</p>
+                            <a href="{{ route('cardapio') }}" class="btn">Saiba mais</a>
+                        </div>
+                    </div>
 
-          <div class="swiper-slide" style="background-image: url(https://img.band.uol.com.br/image/2023/11/01/sushi-104416.png);">
-            <div class="slide-overlay"></div>
-          </div>
-          
-          <!--Slide 2-->
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide"
+                        style="background-image: url(https://viverbem.unimed.coop.br/wp-content/uploads/2013/07/479-sushi_e_saudavel.jpg);">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <h2>Variedades Premium</h2>
+                            <p>Delicie-se com nossa seleção premium de combinados e pratos especiais.</p>
+                            <a href="{{ route('cardapio') }}" class="btn">Ver cardápio</a>
+                        </div>
+                    </div>
 
-          <div class="swiper-slide" style="background-image: url(https://viverbem.unimed.coop.br/wp-content/uploads/2013/07/479-sushi_e_saudavel.jpg);">
-            <div class="slide-overlay"></div>
-          </div>
-
-          <!--Slide 3-->
-
-          <div class="swiper-slide" style="background-image: url(https://media.istockphoto.com/id/1555947107/pt/foto/set-of-sushi-and-maki.jpg?s=612x612&w=0&k=20&c=3KOKojB5TWHBXhtR3Gv1Sic0dUXiqPBeQcA-kt2j5jk=);">
-            <div class="slide-overlay"></div>
-          </div>
-        </div>
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide"
+                        style="background-image: url(https://media.istockphoto.com/id/1555947107/pt/foto/set-of-sushi-and-maki.jpg?s=612x612&w=0&k=20&c=3KOKojB5TWHBXhtR3Gv1Sic0dUXiqPBeQcA-kt2j5jk=);">
+                        <div class="slide-overlay"></div>
+                        <div class="slide-content">
+                            <h2>Combinados Especiais</h2>
+                            <p>Conheça nossos combinados especiais, perfeitos para compartilhar momentos únicos.</p>
+                            <a href="{{ route('cardapio') }}" class="btn">Fazer pedido</a>
+                        </div>
+                    </div>
+                </div>
 
         <!--Paginação-->
         <div class="swiper-pagination"></div>
